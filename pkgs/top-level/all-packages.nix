@@ -5584,6 +5584,7 @@ with pkgs;
   binaryen = callPackage ../development/compilers/binaryen { };
 
   boo = callPackage ../development/compilers/boo {
+    mono = mono46;
     inherit (gnome2) gtksourceview;
   };
 
